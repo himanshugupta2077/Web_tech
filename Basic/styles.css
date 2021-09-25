@@ -12,14 +12,22 @@ h1 {
 /*li { display: block; }*/
 
 nav ul {
-  background-color: black;
+  background-color: tomato;
+  border-style: solid;
+  border-color: mediumvioletred;
+  border-width: 2px;
+  padding: 10px;
 }
 
 nav ul li {
   list-style-type: none;
   display: inline;
-  margin-right: 30px;
+  margin-right: 40px;
   margin-left: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 
